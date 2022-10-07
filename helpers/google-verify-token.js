@@ -14,6 +14,8 @@ const validarGoogleIdToken = async (token)=> {
         });
         const payload = ticket.getPayload();
         const userid = payload['sub'];
+
+        console.log("=============PAYLOAD ============");
         console.log(payload);
         
     
